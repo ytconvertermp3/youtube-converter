@@ -1,4 +1,0 @@
-2 threads (ik haal 20/50% van CPU van taak beheer)
-IDLE staat op 0%
-bij folder image staat dat het werkt aantal hashes 
-API key van site youtube-muziek-downloaden.nl  is toegevoegd.
