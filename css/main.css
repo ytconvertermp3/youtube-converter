@@ -72,9 +72,13 @@ main .container-fluid .hero .download a:hover{
 main .container .row h2 {
   text-align: center;
 }
+
+main .container .row h3 {
+  text-align: center;
+}
 main .container .row div{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 main .container .row .icon{
     padding-bottom: 20px;
@@ -98,6 +102,7 @@ main .container .row .social i {
 main .container .row .social i:hover {
   background: #291010;
   transition: background .3s ease-in-out;
+  cursor: pointer;
 }
 
 footer{
