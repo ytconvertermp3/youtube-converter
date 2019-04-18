@@ -105,6 +105,21 @@ main .container .row .social i:hover {
   cursor: pointer;
 }
 
+main .container .row h3{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+main .container .row h4{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+main .container .row h5{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+
 footer{
     height: 100px;
     width: 100%;
