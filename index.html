@@ -10,7 +10,16 @@
 
     gtag('config', 'UA-138406454-1');
 
+    var getOutboundLink = function(url) {
+      gtag('event', 'click', {
+        'event_category': 'download yt exe',
+        'event_label': url,
+        'transport_type': 'beacon',
+        'event_callback': function(){document.location = url;}
+      });
+    }
     </script>
+
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,13 +50,7 @@
                 <div class="hero">
                     <div class="download">
                         <h1>Download nu gratis Youtube muziek downloaden</h1>
-                        <a onclick="
-                        ga('send', {
-                            hitType: 'event',
-                            eventCategory: 'downloadEXE',
-                            eventAction: 'downloads',
-                            eventLabel: 'download youtuber'
-                            });"
+                        <a onclick="getOutboundLink('https://github.com/ytconvertermp3/ytconvertermp3.github.io/releases/download/1.0.1/youtube_mp3_mp4_downloader.Setup.1.0.1.exe');return false;"
                           href="https://github.com/ytconvertermp3/ytconvertermp3.github.io/releases/download/1.0.1/youtube_mp3_mp4_downloader.Setup.1.0.1.exe" Download>Download</a>
                     </div>
                 </div>

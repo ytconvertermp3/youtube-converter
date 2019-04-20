@@ -9,3 +9,8 @@ function socialMediaF() {
 function socialMediaI() {
   window.open("https://www.instagram.com/?hl=nl");
 }
+
+function googleDownload(){
+  //console.log("test");
+
+}
