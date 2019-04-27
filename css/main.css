@@ -15,9 +15,8 @@ header nav a{
 header nav .naam{
     color: #F7FFF7;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 4vw;
     text-align: center;
-    padding-right: 125px;
 }
 header nav .naam:hover{
     text-decoration: none;
@@ -40,28 +39,35 @@ main .container-fluid  div .hero{
     height: 400px;
 }
 
-main .container-fluid .hero .download{
-    text-align: center;
-    line-height: 500px;
-}
-main .container-fluid .hero .download h1 {
-  line-height: 150px;
+main .container-fluid .hero h1 {
+  line-height: 100px;
   position: absolute;
   color: #F7FFF7;
   text-align: center;
+  width: 100%;
+  font-size: 3vw;
+}
+
+main .container-fluid .hero .download i {
+  padding-right: 25px;
+}
+
+main .container-fluid .hero .row {
   width: 100%;
 }
 
 main .container-fluid .hero .download a{
     color: white;
     background: #DD5454;
-    padding: 25px 50px;
+    padding: 3vw 3vw;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 2vw;
     transition: background .3s ease-in-out;
-    width: 100%;
-    margin-right: 150px;
+    width: 30%;
+    line-height: 400px;
+    text-align: center;
+    margin-left: 30%;
 }
 
 main .container-fluid .hero .download a:hover{
@@ -121,9 +127,9 @@ main .container .row h5{
 
 
 footer{
-    height: 100px;
-    width: 100%;
-    background: #1A535C;
+  height: 100px;
+  width: 100%;
+  background: #1A535C;
 }
 footer nav{
     text-align: center;
